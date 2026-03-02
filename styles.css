@@ -245,6 +245,101 @@ a {
     color: rgb(53, 53, 53);
 }
 
+.prices {
+    height: 200px;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+
+
+.prices, .prices th, .prices td {
+    border: 3px solid black;
+    padding: 0;
+}
+
+.prices th {
+    background-color: white;
+    font-size: larger;
+}
+
+
+
+.booking {
+    background-image: linear-gradient(purple 20%, pink);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.booking p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-left: 25%;
+    margin-top: 40px;
+    background-image: linear-gradient(pink 70%,gray);
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"]
+input[type="password"]
+textarea,
+input[type="date"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+.gender-group {
+            margin-bottom: 10px;
+        }
+        .gender-group label {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        input[type="radio"] {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .booking-text {
+            font-weight: 200px;
+            font-size: larger;
+        }
+
+
+        .table-text {
+            margin-top: 40px;
+            font-weight: 400;
+            font-size: larger;
+        }
    
 
 
