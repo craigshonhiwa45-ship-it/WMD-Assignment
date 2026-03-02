@@ -70,20 +70,6 @@ footer {
     color: white;
 }
 
-.sectionFirst .FrontPage .btn {
-    margin-top: 3em;
-    display: flex;
-    border: 1px solid rgb(236, 77, 130);
-    width: fit-content;
-    border-radius: 7px;
-    padding: 7px 60px;
-    text-decoration: none;
-    background-color: rgb(248, 10, 89);
-    color: white;
-    font-weight: 300;
-    transition: all .4s ease;
-}
-
 .sectionFirst .FrontPage .btn a {
     border-radius: 7px;
     padding: 17px 30px;
@@ -93,7 +79,6 @@ footer {
     border-radius: 7px;
     padding: 7px 60px;
     text-decoration: none;
-    background-color: rgb(248, 10, 89);
     color: white;
     font-weight: 300;
     transition: all .4s ease;
@@ -156,36 +141,6 @@ background-image: url(Image\ \(3\).jfif);
     font-weight: 400;
 }
 
-.sectionSecond .textinfo .btn {
-    border: 1px solid rgb(236, 77, 130);
-    width: fit-content;
-    border-radius: 7px;
-    padding: 7px 60px;
-    text-decoration: none;
-    background-color: rgb(248, 10, 89);
-    color: white;
-    font-weight: 300;
-    transition: all .4s ease;
-}
-
-.sectionSecond .btn {
-    border: 1px solid rgb(236, 77, 130);
-    width: fit-content;
-    border-radius: 7px;
-    height: fit-content;
-    text-decoration: none;
-    background-color: rgb(248, 10, 89);
-    color: white;
-    font-weight: 300;
-    transition: all .4s ease;
-    padding: 10px;
-    
-}
-
-.sectionSecond .textinfo .btn:hover {
-    transform: scale(1.1);
-    background-color: red;
-}
 
 .sectionThird {
     display: flex;
