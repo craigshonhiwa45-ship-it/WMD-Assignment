@@ -296,6 +296,76 @@ input[type="date"] {
             font-size: larger;
         }
    
+.about-section img {
+    width: 450px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 100vh;
+}
 
+.about-section {
+    display: grid;
+    grid-template-columns: 2;
+    
+}
+
+.about-text {
+    display: grid;
+    grid-column-start: 2;
+    margin-top: 100px;
+}
+
+.about-section h2 {
+    color: rgb(236, 77, 130);
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: .5px .5px 3px pink;
+}
+
+
+.box {
+    background-color: white;
+    width: 220px;
+    border-radius: 20px;
+    margin-left: 50px;
+    box-shadow: 0 0 8px 3px black;
+
+   
+
+}
+
+.about-gallery img {
+    width: 210px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   
+}
+
+.pic2 {
+    display: grid;
+    grid-column-start: 2;
+}
+
+.pic3 {
+    display: grid;
+    grid-column-start: 3;
+}
+
+.about-pic h6 {
+    justify-self: center;
+}
+
+.about-pic h2 {
+    justify-self: center;
+    color:  rgb(205, 27, 86);
+}
 
 
