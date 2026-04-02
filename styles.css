@@ -368,4 +368,13 @@ input[type="date"] {
     color:  rgb(205, 27, 86);
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+}
 
+@media (max-width: 768) {
+    .container {
+        flex-direction: column;
+    }
+}
