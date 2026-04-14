@@ -10,7 +10,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-/* NAVBAR */
+
 header .navbar-logo {
     padding: 4% 8% 2% 8%;
     color: palevioletred;
@@ -37,7 +37,7 @@ header .navbar-logo:hover {
     color: pink;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     background-color: #1a1a1a;
@@ -45,13 +45,13 @@ footer {
     padding: 20px;
 }
 
-/* GLOBAL IMAGE FIX */
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* SECTION 1 */
+
 .sectionFirst .FrontPage {
     min-height: 100vh;
     padding: 20px;
@@ -99,7 +99,7 @@ img {
     transform: scale(1.05);
 }
 
-/* SECTION 2 */
+
 .sectionSecond {
     padding: 0 2%;
     display: grid;
@@ -142,7 +142,7 @@ img {
     font-weight: 400;
 }
 
-/* SECTION 3 */
+
 .sectionThird {
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@ img {
     color: #1a1a1a;
 }
 
-/* ABOUT */
+
 .aboutpara {
     max-width: 60%;
 }
@@ -213,7 +213,7 @@ img {
     text-shadow: .5px .5px 3px pink;
 }
 
-/* GALLERY */
+
 .about-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -226,7 +226,7 @@ img {
     border-radius: 20px;
 }
 
-/* TABLE */
+
 .prices {
     width: 50%;
     margin-top: 40px;
@@ -242,7 +242,7 @@ img {
     font-size: larger;
 }
 
-/* BOOKING */
+
 .booking {
     background-image: linear-gradient(purple 20%, pink);
     background-size: cover;
@@ -253,6 +253,7 @@ img {
     margin: 0 20px;
 }
 
+
 form {
     width: 50%;
     background-color: white;
@@ -262,7 +263,6 @@ form {
     background-image: linear-gradient(pink 70%, gray);
 }
 
-/* FORM FIX */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -273,7 +273,7 @@ input[type="date"] {
     margin-bottom: 10px;
 }
 
-/* 🔥 MOBILE RESPONSIVENESS */
+
 @media (max-width: 768px) {
 
     .sectionSecond {
