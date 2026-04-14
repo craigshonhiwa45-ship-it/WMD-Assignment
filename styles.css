@@ -20,6 +20,10 @@ header .navbar-logo {
     transition: .4s ease;
 }
 
+ img {max-width: 100%;
+    height: auto;
+ }
+
 
 header .navbar-logo:hover {
     transform: scale(2.2);
@@ -46,8 +50,7 @@ footer {
 }
 
 .sectionFirst .FrontPage{
-    height: inherit;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 20px;
     padding-left: 20px;
 
@@ -255,8 +258,8 @@ label {
 }
 
 input[type="text"],
-input[type="email"]
-input[type="password"]
+input[type="email"],
+input[type="password"],
 textarea,
 input[type="date"] {
             width: calc(100% - 20px);
@@ -297,8 +300,9 @@ input[type="date"] {
         }
    
 .about-section img {
-    width: 450px;
-    height: 500px;
+     width: 100%;
+    max-width: 450px;
+    height: auto;
     margin-left: 100px;
     margin-top: 40px;
     border-radius: 100vh;
@@ -368,13 +372,46 @@ input[type="date"] {
     color:  rgb(205, 27, 86);
 }
 
-.container {
+.custom-container {
     display: flex;
     gap: 20px;
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
+}
+
+@media (max-width: 768px) {
+
+    .sectionSecond {
+        grid-template-columns: 1fr;
+    }
+
+    .sectionThird .servicebox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .sectionSecond .fourimg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prices {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+        margin-left: 5%;
+    }
+
 }
