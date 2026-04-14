@@ -220,6 +220,12 @@ img {
     gap: 10px;
 }
 
+.about-gallery img {
+    height: auto;
+    max-width: 450px;
+    border-radius: 20px;
+}
+
 /* TABLE */
 .prices {
     width: 50%;
