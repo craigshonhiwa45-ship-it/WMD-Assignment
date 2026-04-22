@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(174, 167, 167);
     font-family: "Nunito", sans-serif;
 }
 
@@ -51,6 +51,12 @@ img {
     height: auto;
 }
 
+.home-back {
+       background-image: url(ai-generated-nail-polish-advertisment-background-with-copy-space-free-photo.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
 
 .sectionFirst .FrontPage {
     min-height: 100vh;
@@ -66,22 +72,25 @@ img {
 .sectionFirst .FrontPage h2 {
     font-size: 3em;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
 .sectionFirst .FrontPage h3 {
-    color: white;
+    color: black;
+     font-weight: bolder;
 }
 
 .sectionFirst .FrontPage p,
 .sectionFirst .FrontPage ul {
-    color: white;
+    color: black;
+      font-weight: bolder;
 }
 
 .sectionFirst .FrontPage .btn a:nth-child(1) {
     border: 1px solid rgb(223, 30, 62);
     background-color: rgb(223, 30, 62);
-    color: white;
+    color: black;
+     font-weight: bolder;
 }
 
 .sectionFirst .FrontPage .btn a {
@@ -89,7 +98,7 @@ img {
     padding: 10px 30px;
     text-decoration: none;
     border: 1px solid rgb(236, 77, 130);
-    color: white;
+    color: black;
     font-weight: 300;
     transition: all .4s ease;
     display: inline-block;
@@ -183,6 +192,12 @@ img {
 }
 
 
+.about-back {
+    background-image: url(ai-generated-nail-polish-advertisment-background-with-copy-space-free-photo.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
 .aboutpara {
     max-width: 60%;
 }
@@ -199,11 +214,13 @@ img {
     margin-left: 100px;
     margin-top: 40px;
     border-radius: 100vh;
+    grid-column-start: 2;
 }
 
 .about-text {
-    grid-column-start: 2;
-    margin-top: 100px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+     font-weight: bolder;
 }
 
 .about-section h2 {
@@ -223,6 +240,7 @@ img {
 .about-gallery img {
     height: auto;
     max-width: 450px;
+    border: 3px solid black;
     border-radius: 20px;
 }
 
