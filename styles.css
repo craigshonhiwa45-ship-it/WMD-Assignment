@@ -292,6 +292,151 @@ input[type="date"] {
     margin-bottom: 10px;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.shop-body{
+    background:#fff5f8;
+    padding:20px;
+}
+
+.shop-nav {
+    background-color: black;
+    margin: 0;
+ 
+}
+
+.shop-nav li {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.shop-nav ul {
+    display: inline-flex;
+    gap: 2em;
+  
+}
+
+.shop-nav a {
+      text-decoration: none;
+      color: #d63384;
+     
+    
+}
+
+h1{
+    text-align:center;
+    color:#d63384;
+    margin-bottom:30px;
+}
+
+.shop-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+.product-card{
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.product-card h3{
+    margin:15px 0 10px;
+}
+
+.price{
+    color:#d63384;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+button{
+    background:#d63384;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#b0256b;
+}
+
+.cart-btn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    background:black;
+}
+
+.cart{
+    position:fixed;
+    top:0;
+    right:-100%;
+    width:350px;
+    height:100vh;
+    background:white;
+    padding:20px;
+    overflow-y:auto;
+    box-shadow:-5px 0 15px rgba(0,0,0,.2);
+    transition:.4s;
+}
+
+.cart.active{
+    right:0;
+}
+
+.close-cart{
+    background:red;
+    margin-bottom:20px;
+}
+
+.cart h2{
+    color:#d63384;
+    margin-bottom:20px;
+}
+
+.cart-item{
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+    margin-bottom:15px;
+}
+
+.quantity-controls{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:10px;
+}
+
+.quantity-controls button{
+    padding:5px 10px;
+}
+
+.total{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
 
 
 

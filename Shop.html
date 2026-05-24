@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Nail Shop</title>
+
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body class="shop-body">
+
+    <header>
+         <nav class="shop-nav">
+            <ul>
+                <a class="navbar-logo" href="index.html">WM Nailbar</a>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+<li><a class="nav-link" href="services.html">Services</a></li>
+
+<li><a class="nav-link" href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="booking.html">Booking</a></li>
+
+<li><a href="Shop.html">Shop</a></li>
+            </ul>
+         </nav>
+</header>
+
+
+    <h1>Luxury Nail Shop</h1>
+
+    <button class="cart-btn" onclick="toggleCart()">
+        Cart (<span id="cart-count">0</span>)
+    </button>
+
+    <div class="shop-container">
+
+        <div class="product-card">
+            <img src="71O0ApAE-OL.jpg" alt="Nail Polish">
+            <h3>Pink Nail Polish</h3>
+            <p class="price">P80</p>
+            <button onclick="addToCart('Pink Nail Polish', 80)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="81OY0N22XEL._AC_UF1000,1000_QL80_.jpg" alt="Nail Care Kit">
+            <h3>Nail Care Kit</h3>
+            <p class="price">P150</p>
+            <button onclick="addToCart('Nail Care Kit', 150)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product-card">
+            <img src="acrylic_nail_kit-SA0574-01.webp" alt="Acrylic Nail Set">
+            <h3>Acrylic Nail Set</h3>
+            <p class="price">P220</p>
+            <button onclick="addToCart('Acrylic Nail Set', 220)">
+                Add to Cart
+            </button>
+        </div>
+
+       
+    </div>
+
+    
+    <div class="cart" id="cart">
+
+        <button class="close-cart" onclick="toggleCart()">
+            Close
+        </button>
+
+        <h2>Your Cart</h2>
+
+        <div id="cart-items"></div>
+
+        <div class="total">
+            Total: P<span id="total-price">0</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
