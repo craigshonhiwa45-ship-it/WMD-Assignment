@@ -302,31 +302,9 @@ input[type="date"] {
 .shop-body{
     background:#fff5f8;
     padding:20px;
-}
-
-.shop-nav {
-    background-color: black;
     margin: 0;
- 
 }
 
-.shop-nav li {
-    list-style: none;
-    margin-top: 40px;
-}
-
-.shop-nav ul {
-    display: inline-flex;
-    gap: 2em;
-  
-}
-
-.shop-nav a {
-      text-decoration: none;
-      color: #d63384;
-     
-    
-}
 
 h1{
     text-align:center;
